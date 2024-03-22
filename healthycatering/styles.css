@@ -1,0 +1,360 @@
+
+
+body {
+    font-family: "Open Sans", sans-serif;;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+
+.features {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    padding: 80px 0;
+}
+
+.contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.contact label,
+.contact textarea,
+.contact input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .card {
+    width: 277px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 10px;
+  }
+  
+  .profile {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Mulish", sans-serif;
+  }
+  
+  .profile img {
+    
+    border-radius: 10px;
+  }
+  
+  .profile p {
+    margin: 10px 0 0 0;
+    width: 100%;
+    line-height: 25px;
+    font-weight: 400;
+  }
+  
+  .profile span {
+    margin-top: 8px;
+    width: 100%;
+    line-height: 25px;
+    color: #999999;
+    font-weight: 800;
+  }
+
+
+
+/*Added*/
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Navbar */
+
+.navbar * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 60px;
+    box-shadow: (50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.navbar .flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style-type: none;
+}
+
+.navbar a {
+    padding: 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#logotext {
+    color: rgb(225, 221, 11);
+}
+
+/*Hero*/
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://gorrygourmet.com/_next/image?url=%2Fimages%2Fmenu_banner.png&w=1920&q=75);
+    height: 190px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-weight: 100;
+    padding-top: 30px;
+}
+
+.hero .branding {
+    font-weight: 600;
+    color: rgb(225, 221, 11);
+}
+
+/*Menu List*/
+
+.menu-list .btn-submit {
+    margin: 20px 0px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.menu-list .btn-submit:hover {
+    background-color: rgb(225, 221, 11);
+    cursor: pointer;
+}
+
+.menu-list .card p {
+    font-weight: 100;
+}
+
+.menu-list .card span {
+    color: black;
+}
+
+/*Features*/
+
+.features {
+    background-color: rgb(225, 221, 11);
+}
+
+.features .favicons {
+    width: 130px;
+    font-size: 30px;
+}
+
+
+/*Show Order*/
+
+.show-order {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.show-order img {
+    width: 280px;
+    border-radius: 20%;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.show-order .detail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.detail-container * {
+    margin-top: 0;
+}
+
+.show-order .radios {
+    margin-right: 20px;
+}
+
+.show-order .submit-button {
+    background-color: rgb(88, 221, 22);
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 40%;
+    color: white;
+}
+
+.show-order .submit-button:hover {
+    cursor: pointer;
+    background-color: rgb(225, 221, 11);
+}
+
+/*Checkout Summary*/
+
+.checkout-summary .checkout {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.checkout img {
+    height:200px;
+    margin-right: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;;
+}
+
+.checkout p {
+    font-family: "Open Sans", sans-serif;
+}
+
+.checkout .checkout-delete-button {
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 70px;
+    color: white;
+}
+
+.checkout .checkout-delete-button:hover {
+    cursor: pointer;
+    background-color: rgb(225, 221, 11);
+}
+
+.checkout {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.payment-button {
+    background-color: #45a049;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.payment-button:hover {
+    cursor: pointer;
+    background-color: rgb(225, 221, 11);
+}
+
+.checkout .qr-image {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+/*Checkout Footer*/
+
+footer {
+    margin-top: 100px;
+    background-color: rgb(225, 221, 11);
+    color: black;
+}
